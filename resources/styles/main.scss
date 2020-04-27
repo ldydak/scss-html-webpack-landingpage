@@ -1,0 +1,26 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Variables
+@import 'components/_variables';
+
+// General styles
+@import 'general';
+
+// Component header
+@import 'components/_header';
+
+// Component slider
+@import 'components/_slider';
+
+// Component slider
+@import 'components/_banner';
+
+// Component newsletter
+@import 'components/_newsletter';
+
+// Component blog
+@import 'components/_blog';
+
+// Component footer
+@import 'components/_footer';

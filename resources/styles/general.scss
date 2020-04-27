@@ -1,0 +1,87 @@
+body {
+    font-family: $font-medium;
+    font-size: 14px;
+    background: $white;
+    position: relative;
+    margin: 0;
+}
+.container {
+    max-width: 1000px !important;
+    width:100%;
+}
+a {
+    color: $main;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+    &.primary{
+        font-size: 12px;
+        font-family: $font-light;
+        background-color: $main;
+        color: $white;
+        min-width: 160px;
+        padding: 15px 30px;
+        border: 0;
+        &:hover {
+            background-color: $white;
+            color:$main;
+            border: 1px solid $main;
+        }
+        
+    }
+    &.secondary{
+        font-size: 12px;
+        font-family: $font-light;
+        background-color: $white;
+        color: $black-txt;
+        min-width: 160px;
+        padding: 15px 30px;
+        border: 0;
+        &:hover {
+            background-color: $main;
+            color: $white;
+            border: 1px solid $white;
+        }
+    }
+    &.btn-shadow{
+        box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.24);
+    }
+}
+h1 {
+    font-size: 24px;
+    font-family: $font-regular;
+    max-width: 420px;
+    color: $black-txt;
+    line-height: 36px;
+}
+h2 {
+    font-size: 14px;
+    font-family: $font-regular;
+    color: $black-txt;
+}
+h3 {
+    font-size: 16px;
+    font-family: $font-regular;
+    color: $black-txt;
+}
+p {
+    color: $gray-txt;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: $font-light;
+}
+input {
+    border: 1px solid $gray;
+    padding: 13px 20px;
+    &::placeholder {
+        color: $black-txt;
+        font-size: 12px;
+        font-family: $font-regular;
+    }
+}

@@ -1,0 +1,25 @@
+.newsletter-container{
+    border-bottom: 1px solid $gray;
+    .container{
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .heading {
+            h3 {
+                text-align: center;
+                @media(min-width: $sm){
+                    text-align: left;
+                }
+            }
+            p{
+                color: $black-txt;
+                text-align: center;
+                @media(min-width: $sm){
+                    max-width:280px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

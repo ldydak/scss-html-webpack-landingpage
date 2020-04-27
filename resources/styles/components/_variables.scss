@@ -1,0 +1,51 @@
+// Colors
+$white: #fff;
+$gray: #EFF2F2;
+$main: #4CCBD6;
+$black-txt:#003B52;
+$gray-txt:#ADADAD;
+
+// Breaking points
+$sm: 768px;
+
+// Fonts
+@font-face {
+    font-family: 'SailecMedium';
+    src: url('./../public/assets/fonts/SailecMedium.eot');
+    src: url('./../public/assets/fonts/SailecMedium.eot') format('embedded-opentype'),
+         url('./../public/assets/fonts/SailecMedium.woff2') format('woff2'),
+         url('./../public/assets/fonts/SailecMedium.woff') format('woff'),
+         url('./../public/assets/fonts/SailecMedium.ttf') format('truetype'),
+         url('./../public/assets/fonts/SailecMedium.svg#SailecMedium') format('svg');
+}
+@font-face {
+    font-family: 'SailecLight';
+    src: url('./../public/assets/fonts/SailecLight.eot');
+    src: url('./../public/assets/fonts/SailecLight.eot') format('embedded-opentype'),
+         url('./../public/assets/fonts/SailecLight.woff2') format('woff2'),
+         url('./../public/assets/fonts/SailecLight.woff') format('woff'),
+         url('./../public/assets/fonts/SailecLight.ttf') format('truetype'),
+         url('./../public/assets/fonts/SailecLight.svg#SailecLight') format('svg');
+}
+@font-face {
+    font-family: 'Sailec';
+    src: url('./../public/assets/fonts/Sailec.eot');
+    src: url('./../public/assets/fonts/Sailec.eot') format('embedded-opentype'),
+         url('./../public/assets/fonts/Sailec.woff2') format('woff2'),
+         url('./../public/assets/fonts/Sailec.woff') format('woff'),
+         url('./../public/assets/fonts/Sailec.ttf') format('truetype'),
+         url('./../public/assets/fonts/Sailec.svg#Sailec') format('svg');
+}
+@font-face {
+    font-family: 'SailecThin';
+    src: url('./../public/assets/fonts/SailecThin.eot');
+    src: url('./../public/assets/fonts/SailecThin.eot') format('embedded-opentype'),
+         url('./../public/assets/fonts/SailecThin.woff2') format('woff2'),
+         url('./../public/assets/fonts/SailecThin.woff') format('woff'),
+         url('./../public/assets/fonts/SailecThin.ttf') format('truetype'),
+         url('./../public/assets/fonts/SailecThin.svg#SailecThin') format('svg');
+}
+$font-regular: 'Sailec';
+$font-medium: 'SailecMedium';
+$font-light: 'SailecLight';
+$font-thin: 'SailecThin';

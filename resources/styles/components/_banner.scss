@@ -1,0 +1,41 @@
+.banner-container {
+    position: relative;
+    &:before{
+        position: absolute;
+        content: '';
+        width: 50%;
+        height: 270px;
+        top:0;
+        right:0;
+        background-color: $main;
+        z-index: -1;
+    }
+    .container{
+        background-color: $main;
+        height:270px;
+        position: relative;
+        &:before{
+            position: absolute;
+            content: '';
+            width: 70px;
+            height: 270px;
+            top:0;
+            left:-70px;
+            background-color: $main;
+            z-index: -1;
+        }
+        h2 {
+
+            color: $white;
+            font-family: $font-light;
+            font-size: 24px;
+        }
+        .arrow {
+            display: none;
+            @media(min-width: $sm){
+                display: block;
+                width:20px;
+            }
+        }
+    }
+}
